@@ -1,0 +1,9 @@
+{
+    "require": {
+        "propel/propel": "~2.0@dev",
+        "smarty/smarty": "*"
+    },
+    "autoload": {
+        "classmap": ["/var/www/html/generated-classes"]
+    }
+}

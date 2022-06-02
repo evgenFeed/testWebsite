@@ -1,0 +1,13 @@
+<database name="mydb" defaultMethod="native">
+    
+    <table name="client" phpName="Client">
+        <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true"/>
+        <column name="name" type="varchar" required="true" />
+        <column name="email" type="varchar" required="true" />
+        <unique name="email_UNIQUE">
+            <unique-column name="email"/>
+        </unique>
+        
+    </table>
+
+</database>

@@ -1,0 +1,24 @@
+{
+    "propel": {
+        "database": {
+            "connections": {
+                "mydb": {
+                    "adapter": "mysql",
+                    "classname": "Propel\\Runtime\\Connection\\ConnectionWrapper",
+                    "dsn": "mysql:host=34.88.30.221;dbname=mydb",
+                    "user": "test_remote",
+                    "password": "test_remote",
+                    "attributes": []
+                }
+            }
+        },
+        "runtime": {
+            "defaultConnection": "mydb",
+            "connections": ["mydb"]
+        },
+        "generator": {
+            "defaultConnection": "mydb",
+            "connections": ["mydb"]
+        }
+    }
+}
