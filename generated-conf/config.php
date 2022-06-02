@@ -7,8 +7,8 @@ $manager = new \Propel\Runtime\Connection\ConnectionManagerSingle();
 $manager->setConfiguration(array (
   'classname' => 'Propel\\Runtime\\Connection\\ConnectionWrapper',
   'dsn' => 'mysql:host=34.88.30.221;dbname=mydb',
-  'user' => '', //login db
-  'password' => '', //password db
+  'user' => 'test_remote', //login db
+  'password' => 'test_remote', //password db
   'attributes' =>
   array (
     'ATTR_EMULATE_PREPARES' => false,
